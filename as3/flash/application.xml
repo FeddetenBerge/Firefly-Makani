@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/2.5">
+	
+	<id>Max4LiveVisualiser</id> 
+	<versionNumber>1.0</versionNumber> 
+	<filename>Max4LiveVisualiser</filename> 
+	
+	<name>Max4Live Visualiser</name> 
+	<description>Connects via UDP sockets to a Max4Live patch</description> 
+	<copyright>Igor Zinken 2011</copyright> 
+	
+	<initialWindow> 
+		<title>Max4Live Visualiser</title> 
+		<content>Max4LiveVisualiser.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 
+	
+	<!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
